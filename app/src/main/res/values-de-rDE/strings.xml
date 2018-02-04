@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="enter_name">Bitte geben Sie Ihren Namen ein</string>
+    <string name="start">start</string>
+    <string name="answer">Bitte geben Sie Ihre Antwort ein</string>
+    <string name="next">Weiter</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="play_again">Wollen Sie nochmal spielen?</string>
+    <string name="you_have">Sie haben</string>
+    <string name="question2answer1">Februar</string>
+    <string name="question2answer3">Jeder Monat</string>
+    <string name="question2answer2">April</string>
+    <string name="question2answer4">September</string>
+    <string name="question3answer1">Erde</string>
+    <string name="question3answer2">Wind</string>
+    <string name="question3anwer3">Feuer</string>
+    <string name="question3answer4">Wasser</string>
+    <string name="question10answer4">1 von 2</string>
+    <string name="question2">In diesem Monat sind 28 Tage.\nWelcher Monat bin ich?</string>
+    <string name="question3">Ich bin immer hungrig und muss immer gefüttert werden. Der Finger, den ich berühr, wird bald rot. Was bin ich?</string>
+    <string name="question5">Welche Nummer erhalten Sie, wenn Sie alle Zahlen auf einer Telefontastatur miteinander multiplizieren?</string>
+    <string name="question6">Ein Mädchen war 10 auf ihrem letzten Geburtstag und wird 12 auf ihrem nächsten Geburtstag. Wie ist das möglich?</string>
+    <string name="question7">5 Maschinen brauchen 5 Minuten um 5 Dinge herzustellen. Wie lange brauchen 100 Maschinen für 100 Dinge?</string>
+    <string name="question8">Herr Hubar hat 4 Töchter. Jedes der Töchter hat einen Bruder. Wie viele Kinder hat Herr Hubar?</string>
+    <string name="question10">Herr Meier hat 2 Kinder. Wenn das ältere ein Junge ist, wie hoch sind die Chancen, dass das zweite auch ein Junge ist?</string>
+    <string name="question6answer1">Es ist nicht möglich.</string>
+    <string name="question6answer2">Sie hat am 28. Februar Geburtstag.</string>
+    <string name="question6answer3">Heute ist ihr Geburtstag.</string>
+    <string name="question6answer4">Sie wurde an Neujahr geboren.</string>
+    <string name="submit">Abschicken</string>
+    <string name="question4">Markus muss die Zahlen 1 bis 100 an 100 Häuser malen. Wie oft malt er die 8?</string>
+    <string name="question9">Es sind 2 Enten vor 2 anderen Enten. Es sind 2 Enten hinter 2 anderen Enten. Es sind 2 Enten neben 2 anderen Enten. Wie viele Enten sind es?</string>
+    <string name="question1">Ich bin der Anfang vom Ende und der Anfang von Ewigkeit. Ich bin in der Zeit aber nicht im Raum. Was bin ich?</string>
+    <string name="points">Punkte</string>
+    <string name="image_description">Bild_abhängig_von_Punktzahl</string>
+</resources>

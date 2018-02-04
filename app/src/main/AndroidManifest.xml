@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.quiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/backgroundMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Question1Activity"
+            android:theme="@style/backgroundQuestion" />
+        <activity
+            android:name=".Question2Activity"
+            android:theme="@style/backgroundQuestion" />
+        <activity
+            android:name=".Question3Activity"
+            android:theme="@style/backgroundQuestion" />
+        <activity
+            android:name=".Question4Activity"
+            android:theme="@style/backgroundQuestion" />
+        <activity
+            android:name=".Question5Activity"
+            android:theme="@style/backgroundQuestion" />
+        <activity
+            android:name=".Question6Activity"
+            android:theme="@style/backgroundQuestion" />
+        <activity
+            android:name=".Question7Activity"
+            android:theme="@style/backgroundQuestion" />
+        <activity
+            android:name=".Question8Activity"
+            android:theme="@style/backgroundQuestion" />
+        <activity
+            android:name=".Question9Activity"
+            android:theme="@style/backgroundQuestion" />
+        <activity
+            android:name=".Question10Activity"
+            android:theme="@style/backgroundQuestion" />
+        <activity
+            android:name=".EndActivity"
+            android:theme="@style/backgroundEnd" />
+    </application>
+
+</manifest>

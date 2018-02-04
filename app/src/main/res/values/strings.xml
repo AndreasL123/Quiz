@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="enter_name">Please Enter Your Name</string>
+    <string name="start">Start</string>
+    <string name="question1">I am the beginning of everything, the end of everywhere. I\'m the beginning of eternity, the end of time and space. What am I?</string>
+    <string name="answer">Please enter Your Answer</string>
+    <string name="next">Next</string>
+    <string name="question2">I have 28 days in a month.\nWhich month I am?</string>
+    <string name="question3">I am always hungry. I must always be fed. The finger I touch, will soon turn red.</string>
+    <string name="question4">John has been hired to paint the numbers 1 through 100 on 100 apartments. How many times will he have to paint 8?</string>
+    <string name="question5">What number do you get when you multiply all of the numbers on a telephone\'s number pad?</string>
+    <string name="question6">A girl was ten on her last birthday, and will be twelve on her next birthday. How is this possible?</string>
+    <string name="question7">If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?</string>
+    <string name="question8">Mr. Smith has 4 daughters. Each of his daughters has a brother. How many children does Mr. Smith have?</string>
+    <string name="question9">There are 2 ducks in front of 2 other ducks. There are 2 ducks behind 2 other ducks. There are 2 ducks beside 2 other ducks. How many ducks are there?</string>
+    <string name="question10">Mr. Smith has two children. If the older child is a boy, what are the odds that the other child is also a boy?</string>
+    <string name="question2answer1">February</string>
+    <string name="question2answer2">April</string>
+    <string name="question2answer4">September</string>
+    <string name="question3answer1">Earth</string>
+    <string name="question3answer2">Wind</string>
+    <string name="question3anwer3">Fire</string>
+    <string name="question3answer4">Water</string>
+    <string name="question4answer2" translatable="false">20</string>
+    <string name="question4answer1" translatable="false">10</string>
+    <string name="question4answer3" translatable="false">19</string>
+    <string name="question4answer4" translatable="false">12</string>
+    <string name="question6answer1">It\'s not possible.</string>
+    <string name="question6answer2">She was born on 28th February.</string>
+    <string name="question6answer3">Her birthday is today.</string>
+    <string name="question6answer4">She was born on New Years Eve.</string>
+    <string name="question10anwer1" translatable="false">50%</string>
+    <string name="question10answer2" translatable="false">33%</string>
+    <string name="question10answer3" translatable="false">66%</string>
+    <string name="question10answer4">1 out of 2</string>
+    <string name="submit">submit</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="play_again">Do you want to play again?</string>
+    <string name="you_have">You have</string>
+    <string name="question2answer3">Every Month</string>
+    <string name="points">Points</string>
+    <string name="image_description">image_depending_on_score</string>
+</resources>
