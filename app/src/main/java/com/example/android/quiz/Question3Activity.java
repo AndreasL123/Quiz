@@ -9,6 +9,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -104,7 +105,7 @@ public class Question3Activity extends AppCompatActivity {
         countDownTimer = new CountDownTimer(timer, 1000) {
             @Override
             public void onTick(long millis) {
-                textView.setText(String.format("%02d:%02d",
+                textView.setText(String.format(Locale.getDefault(), "%02d:%02d",
                         TimeUnit.MILLISECONDS.toMinutes(millis),
                         TimeUnit.MILLISECONDS.toSeconds(millis) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(millis))));
                 timer = millis;
