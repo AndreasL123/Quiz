@@ -33,7 +33,8 @@ public class Question8Activity extends AppCompatActivity {
         } else {
             score = getIntent().getIntExtra("Score", 0);
             playerName = getIntent().getCharSequenceExtra("Player").toString();
-            timer = 11 * 1000;
+            // 31 seconds for timer
+            timer = 31 * 1000;
         }
         setContentView(R.layout.activity_question8);
         startTimer();

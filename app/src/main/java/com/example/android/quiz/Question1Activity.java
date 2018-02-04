@@ -33,8 +33,8 @@ public class Question1Activity extends AppCompatActivity {
         } else {
             score = getIntent().getIntExtra("Score", 0);
             playerName = getIntent().getCharSequenceExtra("Player").toString();
-            // 11 seconds for timer 
-            timer = 11 * 1000;
+            // 31 seconds for timer
+            timer = 31 * 1000;
         }
         setContentView(R.layout.activity_question1);
         startTimer();
@@ -95,7 +95,6 @@ public class Question1Activity extends AppCompatActivity {
         this method is called to start the timer
      */
     public void startTimer() {
-        //final int seconds = 11;
         final TextView textView = findViewById(R.id.timer1);
         countDownTimer = new CountDownTimer(timer, 1000) {
             @Override
