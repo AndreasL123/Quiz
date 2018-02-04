@@ -68,7 +68,6 @@ public class Question3Activity extends AppCompatActivity {
         this method is called when the player presses the next button
      */
     public void checkAnswer() {
-
         RadioGroup radioGroup = findViewById(R.id.question3answer);
         if (radioGroup.getCheckedRadioButtonId() != -1) {
             RadioButton correctAnswer = findViewById(R.id.question3answer3);
@@ -82,7 +81,6 @@ public class Question3Activity extends AppCompatActivity {
                 score += 10;
             }
         }
-
     }
 
     /*

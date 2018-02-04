@@ -25,8 +25,10 @@ public class Question1Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // recovering the instance state if available, else set attributes to values from 
-        // last activity
+        /*
+            recovering the instance state if available, else set attributes to values from
+            last activity
+         */
         if (savedInstanceState != null) {
             score = savedInstanceState.getInt("SCORE_KEY");
             playerName = savedInstanceState.getString("PLAYER_NAME_KEY");
@@ -78,7 +80,6 @@ public class Question1Activity extends AppCompatActivity {
             }
         }
     }
-
 
     /*
         this method is called to go to the next question, cancel the timer and pass attribute

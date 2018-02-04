@@ -26,8 +26,10 @@ public class Question10Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // recovering the instance state if available, else set attributes to values from 
-        // last activity
+        /*
+            recovering the instance state if available, else set attributes to values from
+            last activity
+         */
         if (savedInstanceState != null) {
             score = savedInstanceState.getInt("SCORE_KEY");
             playerName = savedInstanceState.getString("PLAYER_NAME_KEY");
@@ -76,9 +78,7 @@ public class Question10Activity extends AppCompatActivity {
         if (checkBox1.isChecked() && !checkBox2.isChecked() && !checkBox3.isChecked() && checkBox4.isChecked()) {
             score += 10;
         }
-
-        Toast toast = Toast.makeText(this, getResources().getString(R.string.you_have) + " " + score + " " + getResources().getString(R.string.points), Toast.LENGTH_LONG);
-        toast.show();
+        Toast.makeText(this, getResources().getString(R.string.you_have) + " " + score + " " + getResources().getString(R.string.points), Toast.LENGTH_LONG).show();
     }
 
     /*
@@ -113,5 +113,4 @@ public class Question10Activity extends AppCompatActivity {
             }
         }.start();
     }
-
 }

@@ -25,8 +25,10 @@ public class Question5Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // recovering the instance state if available, else set attributes to values from 
-        // last activity
+        /*
+            recovering the instance state if available, else set attributes to values from
+            last activity
+         */
         if (savedInstanceState != null) {
             score = savedInstanceState.getInt("SCORE_KEY");
             playerName = savedInstanceState.getString("PLAYER_NAME_KEY");
@@ -111,5 +113,4 @@ public class Question5Activity extends AppCompatActivity {
             }
         }.start();
     }
-
 }

@@ -67,7 +67,6 @@ public class Question2Activity extends AppCompatActivity {
         this method is called to check if the players answer is correct
      */
     public void checkAnswer() {
-
         RadioGroup radioGroup = findViewById(R.id.question2answer);
         if (radioGroup.getCheckedRadioButtonId() != -1) {
             RadioButton correctAnswer = findViewById(R.id.question2answer3);
@@ -80,7 +79,6 @@ public class Question2Activity extends AppCompatActivity {
             if (correctanswer.equalsIgnoreCase(playersanswer)) {
                 score += 10;
             }
-
         }
     }
 
@@ -116,5 +114,4 @@ public class Question2Activity extends AppCompatActivity {
             }
         }.start();
     }
-
 }
