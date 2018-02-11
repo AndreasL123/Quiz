@@ -22,7 +22,7 @@
             android:layout_marginBottom="@dimen/activity_margin_low"
             android:gravity="center"
             android:textColor="@color/timer_color"
-            android:textSize="@dimen/activity_textsize_low" />
+            android:textSize="@dimen/activity_textsize_medium" />
 
         <TextView
             android:layout_width="match_parent"
