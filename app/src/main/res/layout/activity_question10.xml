@@ -1,37 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/StyleScrollView"
     android:focusable="true"
-    android:focusableInTouchMode="true">
+    android:focusableInTouchMode="true"
+    tools:context="com.example.android.quiz.Question10Activity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:orientation="vertical">
+    <LinearLayout style="@style/StyleLinearLayoutTop">
 
         <TextView
             android:id="@+id/timer10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_margin_low"
-            android:gravity="center"
-            android:textColor="@color/timer_color"
-            android:textSize="@dimen/activity_textsize_medium" />
+            style="@style/StyleTimer" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_margin_low"
-            android:background="@drawable/shape_questions"
-            android:text="@string/question10"
-            android:textColor="@color/colorText"
-            android:textSize="@dimen/activity_textsize_low" />
+            style="@style/StyleQuestion"
+            android:text="@string/question10" />
 
         <CheckBox
             android:id="@+id/question10answer1"
@@ -40,7 +23,7 @@
             android:text="@string/question10anwer1"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/colorText"
-            android:theme="@style/checkBoxStyle" />
+            android:theme="@style/CheckBoxStyle" />
 
         <CheckBox
             android:id="@+id/question10answer2"
@@ -49,7 +32,7 @@
             android:text="@string/question10answer2"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/colorText"
-            android:theme="@style/checkBoxStyle" />
+            android:theme="@style/CheckBoxStyle" />
 
         <CheckBox
             android:id="@+id/question10answer3"
@@ -58,7 +41,7 @@
             android:text="@string/question10answer3"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/colorText"
-            android:theme="@style/checkBoxStyle" />
+            android:theme="@style/CheckBoxStyle" />
 
         <CheckBox
             android:id="@+id/question10answer4"
@@ -67,16 +50,13 @@
             android:text="@string/question10answer4"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/colorText"
-            android:theme="@style/checkBoxStyle" />
+            android:theme="@style/CheckBoxStyle" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/StyleButton"
             android:layout_gravity="center"
             android:onClick="showResult"
-            android:text="@string/submit"
-            android:textSize="@dimen/activity_textsize_low" />
-
+            android:text="@string/submit" />
 
     </LinearLayout>
 </ScrollView>

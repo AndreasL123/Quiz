@@ -1,69 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true"
-    tools:context="com.example.android.quiz.MainActivity">
+    style="@style/StyleScrollView"
+    tools:context="com.example.android.quiz.EndActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:orientation="vertical">
+    <LinearLayout style="@style/StyleLinearLayoutTop">
 
         <ImageView
             android:id="@+id/image_end"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="@dimen/activity_margin_low"
+            style="@style/StyleImageView"
             android:contentDescription="@string/image_description" />
 
         <TextView
             android:id="@+id/player_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/StyleActivityEndTextView"
             android:layout_marginBottom="@dimen/activity_margin_low"
-            android:gravity="center"
-            android:textColor="@color/colorText"
             android:textSize="@dimen/activity_textsize_medium" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
+            style="@style/StyleActivityEndTextView"
             android:text="@string/you_have"
-            android:textColor="@color/colorText"
             android:textSize="@dimen/activity_textsize_low" />
 
         <TextView
             android:id="@+id/player_score"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="@color/colorText"
+            style="@style/StyleActivityEndTextView"
             android:textSize="@dimen/activity_textsize_high" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
+            style="@style/StyleActivityEndTextView"
             android:text="@string/points"
-            android:textColor="@color/colorText"
             android:textSize="@dimen/activity_textsize_low" />
 
-
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/StyleActivityEndTextView"
             android:layout_marginBottom="@dimen/activity_margin_low"
-            android:gravity="center"
             android:text="@string/play_again"
-            android:textColor="@color/colorText"
             android:textSize="@dimen/activity_textsize_low" />
 
         <LinearLayout
@@ -74,20 +46,15 @@
 
             <Button
                 android:id="@+id/button_yes"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/StyleButton"
                 android:layout_marginEnd="@dimen/activity_margin_high"
                 android:layout_marginRight="@dimen/activity_margin_high"
-                android:text="@string/yes"
-                android:textSize="@dimen/activity_textsize_low" />
+                android:text="@string/yes" />
 
             <Button
                 android:id="@+id/button_no"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/no"
-                android:textSize="@dimen/activity_textsize_low" />
-
+                style="@style/StyleButton"
+                android:text="@string/no" />
 
         </LinearLayout>
     </LinearLayout>

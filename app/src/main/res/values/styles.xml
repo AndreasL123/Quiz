@@ -8,35 +8,120 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="checkBoxStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Style for CheckBox. -->
+    <style name="CheckBoxStyle" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorAccent">@color/colorText</item>
         <item name="android:textColorSecondary">@color/colorText</item>
     </style>
 
-    <style name="radioButtonStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Style for RadioGroup. -->
+    <style name="StyleRadioGroup" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorAccent">@color/colorText</item>
         <item name="android:textColorSecondary">@color/colorText</item>
     </style>
 
-    <style name="backgroundQuestion" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Style for the background of question activities. -->
+    <style name="BackgroundQuestion" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@drawable/questionmark2</item>
     </style>
 
-    <style name="backgroundMain" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Style for background of main activity. -->
+    <style name="BackgroundMain" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@drawable/person</item>
     </style>
 
-    <style name="backgroundEnd" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Style for background of end activity. -->
+    <style name="BackgroundEnd" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@drawable/green</item>
+    </style>
+
+    <!-- Style for timer. -->
+    <style name="StyleTimer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/activity_margin_low</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/timer_color</item>
+        <item name="android:textSize">@dimen/activity_textsize_medium</item>
+    </style>
+
+    <!-- Style for question activity. -->
+    <style name="StyleQuestion">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/shape_questions</item>
+        <item name="android:layout_marginBottom">@dimen/activity_margin_low</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/activity_textsize_low</item>
+    </style>
+
+    <!-- Style for Buttons. -->
+    <style name="StyleButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/activity_textsize_low</item>
+    </style>
+
+    <!-- Style for ImageView. -->
+    <style name="StyleImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/activity_margin_low</item>
+    </style>
+
+    <!-- Style for TextViews of activity_end. -->
+    <style name="StyleActivityEndTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <!-- Style for LinearLayouts (1st child of scrollView). -->
+    <style name="StyleLinearLayoutTop">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Style for EditText of answers. -->
+    <style name="StyleAnswerEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:hint">@string/answer</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorHint">@color/colorText</item>
+        <item name="android:textSize">@dimen/activity_textsize_low</item>
+    </style>
+
+    <!-- Style for RadioButtons. -->
+    <style name="StyleRadioButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <!-- Style for ScrollViews. -->
+    <style name="StyleScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fillViewport">true</item>
     </style>
 
 </resources>

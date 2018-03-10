@@ -1,86 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/StyleScrollView"
     android:focusable="true"
-    android:focusableInTouchMode="true">
+    android:focusableInTouchMode="true"
+    tools:context="com.example.android.quiz.Question2Activity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:orientation="vertical">
+    <LinearLayout style="@style/StyleLinearLayoutTop">
 
         <TextView
             android:id="@+id/timer2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_margin_low"
-            android:gravity="center"
-            android:textColor="@color/timer_color"
-            android:textSize="@dimen/activity_textsize_medium" />
+            style="@style/StyleTimer" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_margin_low"
-            android:background="@drawable/shape_questions"
-            android:text="@string/question2"
-            android:textColor="@color/colorText"
-            android:textSize="@dimen/activity_textsize_low" />
+            style="@style/StyleQuestion"
+            android:text="@string/question2" />
 
         <RadioGroup
             android:id="@+id/question2answer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:theme="@style/radioButtonStyle">
+            android:theme="@style/StyleRadioGroup">
 
             <RadioButton
                 android:id="@+id/question2answer1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question2answer1"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@color/colorText" />
+                style="@style/StyleRadioButton"
+                android:text="@string/question2answer1" />
 
             <RadioButton
                 android:id="@+id/question2answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question2answer2"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@color/colorText" />
+                style="@style/StyleRadioButton"
+                android:text="@string/question2answer2" />
 
             <RadioButton
                 android:id="@+id/question2answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question2answer3"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@color/colorText" />
+                style="@style/StyleRadioButton"
+                android:text="@string/question2answer3" />
 
             <RadioButton
                 android:id="@+id/question2answer4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question2answer4"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@color/colorText" />
+                style="@style/StyleRadioButton"
+                android:text="@string/question2answer4" />
         </RadioGroup>
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/StyleButton"
             android:layout_gravity="center"
             android:onClick="question3"
-            android:text="@string/next"
-            android:textSize="@dimen/activity_textsize_low" />
-
+            android:text="@string/next" />
 
     </LinearLayout>
 </ScrollView>

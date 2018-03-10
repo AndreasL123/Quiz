@@ -32,7 +32,7 @@ public class EndActivity extends AppCompatActivity implements View.OnClickListen
         } else {
             imageView.setImageResource(R.drawable.dog);
         }
-        score.setText(getIntent().getIntExtra("Score", 0) + "");
+        score.setText(String.valueOf(getIntent().getIntExtra("Score", 0)));
 
         Button button_yes = findViewById(R.id.button_yes);
         button_yes.setOnClickListener(this);
